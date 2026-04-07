@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho - Hype Esportes</title>
+    <link rel="stylesheet" href="hype.css">
+</head>
+
+<body>
+
+<header class="topo">
+    <div class="topo-container">
+
+        <div class="logo">
+            <img src="hypelogo.jpg" alt="Logo Hype" width="70px">
+        </div>
+
+        <div class="busca">
+            <input type="text" placeholder="Pesquisar camisas, seleções, clubes...">
+            <button>🔍</button>
+        </div>
+
+        <div class="acoes">
+            <a href="conta.html" class="acao">Minha Conta</a>
+            <a href="carrinho.html" class="acao">Meu Carrinho</a>
+        </div>
+
+    </div>
+
+    <nav class="menu">
+        <a href="home.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+
+<main class="conteudo">
+
+    <h2 class="titulo-pagina">Meu Carrinho</h2>
+
+    <section class="carrinho-area">
+
+        <div class="itens-carrinho">
+
+            <div class="item-carrinho">
+                <img src="camisa1.jpg" alt="Camisa Brasil">
+                <div class="info-item">
+                    <h3>Camisa Brasil (Casa) 2026/27</h3>
+                    <p>Preço: <strong>R$179,90</strong></p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" value="1" min="1">
+
+                    <button class="btn-remover">Remover</button>
+                </div>
+            </div>
+
+
+            <div class="item-carrinho">
+                <img src="camisa2.jpg" alt="Camisa Brasil Jogador">
+                <div class="info-item">
+                    <h3>Camisa Brasil Modelo Jogador</h3>
+                    <p>Preço: <strong>R$199,90</strong></p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" value="1" min="1">
+
+                    <button class="btn-remover">Remover</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="resumo-carrinho">
+            <h3>Resumo do Pedido</h3>
+
+            <p>Subtotal: <strong>R$379,80</strong></p>
+            <p>Frete: <strong>Grátis</strong></p>
+            <p class="total">Total: <strong>R$379,80</strong></p>
+
+            <button class="btn-finalizar">Finalizar Compra</button>
+            <a href="produtos.html" class="voltar-loja">Continuar Comprando</a>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="rodape">
+    <p>© 2026 Hype Esportes - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
