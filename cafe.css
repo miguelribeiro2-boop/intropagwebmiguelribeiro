@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4ede6;
+    color: #3b2a20;
+}
+
+#cabecalho-cafe,
+#topo-do-cardapio {
+    background-color: #6b3e26;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    background-color: #8a5a3c;
+    padding: 8px 14px;
+    margin: 4px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #f3dfcf;
+    color: #6b3e26;
+}
+
+.miolo-da-pagina {
+    width: 85%;
+    margin: auto;
+}
+
+.caixinha-do-cafe,
+.bloco-do-texto,
+.caixa-de-compra,
+.produto-avulso {
+    background: #fffaf6;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.frase-impacto {
+    font-weight: bold;
+    color: #7b4b32;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.grade-de-produtos {
+    display: flex;
+    gap: 15px;
+}
+
+.botao-de-compra,
+.botao-pedido {
+    display: inline-block;
+    background-color: #8b4f2d;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.botao-de-compra:hover,
+.botao-pedido:hover {
+    background-color: #6f3d21;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f1ea;
+}
+
+.formulario-cafe {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario-cafe label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 14px;
+    font-weight: bold;
+    color: #5b3420;
+}
+
+.formulario-cafe input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8c2b3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.formulario-cafe input:focus {
+    outline: none;
+    border-color: #8b4f2d;
+    box-shadow: 0 0 0 2px rgba(139, 79, 45, 0.15);
+}
+
+.formulario-cafe .botao-pedido {
+    margin-top: 18px;
+}
+
+.tabela-carrinho {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-carrinho th {
+    background-color: #7a4a2f;
+    color: white;
+    padding: 12px;
+}
+
+.tabela-carrinho td {
+    padding: 12px;
+    border-bottom: 1px solid #e6d7ca;
+    text-align: center;
+}
+
+.controle-qtd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-qtd {
+    background-color: #8b4f2d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-qtd:hover {
+    background-color: #6f3d21;
+}
+
+.btn-remover {
+    background-color: #c0392b;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-remover:hover {
+    background-color: #922b21;
+}
